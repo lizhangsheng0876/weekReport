@@ -94,15 +94,6 @@ const Home: NextPage = () => {
 
       <Header />
       <main className="flex flex-1 w-full flex-col items-center justify-center text-center px-4 mt-12 sm:mt-20">
-      <a
-          className="flex max-w-fit items-center justify-center space-x-2 rounded-full border border-gray-300 bg-white px-4 py-2 text-sm text-gray-600 shadow-md transition-colors hover:bg-gray-100 mb-5"
-          href="https://github.com/guaguaguaxia/weekly_report"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Github />
-          <p>Star on GitHub</p>
-        </a>
         <h1 className="sm:text-6xl text-4xl max-w-2xl font-bold text-slate-900">
           {t('description1')} <br></br><div               className=" px-4 py-2 sm:mt-3 mt-8 hover:bg-black/80 w-full"></div>{t('description2')}
         </h1>
@@ -165,13 +156,7 @@ const Home: NextPage = () => {
           <br></br>
           <div className="mt-1 items-center space-x-3">
             <span className="text-slate-200">
-                {t('privacyPolicy1')}
-              <a
-                className="text-blue-200 hover:text-blue-400"
-                href="https://github.com/guaguaguaxia/weekly_report/blob/main/privacy.md"
-                target="_blank"
-                rel="noopener noreferrer"
-              >{' '}{t('privacyPolicy2')}</a>
+            该网站不存储您上传的任何内容。所有内容将被直接上传到OpenAI，OpenAI将承担所有与该内容相关的责任。该网站不对任何与上传内容有关的法律责任负责。请确保您了解OpenAI的隐私政策，并同意其所涵盖的内容。
             </span>
           </div>
         </div>
